@@ -50,6 +50,11 @@
 //--------------------------------------------------------------------+
 // USB
 //--------------------------------------------------------------------+
+
+#define USB_DESC_VID 0x239A
+#define USB_DESC_UF2_PID 0x0029
+#define USB_DESC_CDC_ONLY_PID 0x0029
+
 #define UF2_PRODUCT_NAME "Othernet PPR"
 #define UF2_VOLUME_LABEL "PPRBOOT    "
 #define UF2_BOARD_ID "nRF52840-ppr-v1"
